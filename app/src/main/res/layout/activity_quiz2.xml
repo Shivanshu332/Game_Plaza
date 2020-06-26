@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".QuizActivity2">
+
+    <TextView
+        android:id="@+id/txtScore1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:textSize="30sp"
+        android:text="Score = 0" />
+
+    <TextView
+        android:id="@+id/txtQues1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Q 2 - What is Manifest.xml in android?"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/radioGroup11">
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text=" It has information about layout in an application"
+            android:layout_weight="1"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton21"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="It has the information about activities in an application"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton31"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="It has all the information about an application"
+            android:textSize="15sp"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Next"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+</LinearLayout>

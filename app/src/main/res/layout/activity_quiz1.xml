@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context=".QuizActivity1">
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:textSize="30sp"
+        android:text="Score = 0" />
+
+    <TextView
+        android:id="@+id/txtQues"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Q 1 - What is Android?"
+        android:textSize="30sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Android is a stack of software's for mobility"
+            android:layout_weight="1"
+            android:textSize="15sp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Google mobile device name"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="Google mobile device name"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Next"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Main Menu"
+        android:textSize="30sp"
+        android:layout_weight="1"/>
+</LinearLayout>
